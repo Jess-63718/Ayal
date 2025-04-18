@@ -64,6 +64,7 @@ The super admin oversees the platform. They can:
 > Make sure Node.js is installed and MongoDB Atlas is properly configured in the `.env` files.
 
 ### 1. Start the Backend
+Open a new terminal and run:
 
 ```bash
 cd backend
@@ -72,7 +73,7 @@ node server.js
 ```
 📍Backend runs at: http://localhost:5000
 
-### 1. Start the Backend
+### 2. Start the Frontend
 Open a new terminal and run:
 
 ```bash
