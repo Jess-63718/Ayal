@@ -1,6 +1,6 @@
 # AYAL
 
-**AYAL** is a **MERN stack** (MongoDB, Express.js, React, Node.js) neighborhood assistance platform — where residents can connect, communicate, and collaborate with their neighbors, local workers, and community admins to create a better living experience.
+**AYAL** is a **MERN stack** (MongoDB, Express.js, React, Node.js) neighborhood assistance platform — where residents can connect, communicate, and collaborate with their neighbors, local workers to create a better living experience.
 
 ---
 
@@ -39,7 +39,7 @@ Residents are local people in the neighborhood. They can:
 Workers are local service providers. They can:
 - Manage their services
 - Accept or reject service bookings from residents
-
+- Receive booking requests through mail
 ---
 
 ### 👮 Admin
@@ -47,6 +47,7 @@ Admins manage their assigned communities. They can:
 - Approve or verify resident accounts
 - Create and manage community groups
 - Create and manage local events
+- View participants for events
 
 > Note: Admins cannot self-register. Their approval must come from the Super Admin. If approved they will be notified through the mail.
 
@@ -55,7 +56,6 @@ Admins manage their assigned communities. They can:
 ### 🦸 Super Admin
 The super admin oversees the platform. They can:
 - Approve and manage Admin accounts
-- Monitor overall system activity
 
 ---
 
