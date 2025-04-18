@@ -11,11 +11,11 @@ To ensure authenticity and safety within the platform:
 - 🏠 **Residents** must **submit valid address proof** during signup.
   - Their **locality Admin** will manually verify and approve the account.
   - Only **after approval** can residents access the platform.
-  - ✅ If approved, they will receive a **notification via email**.
+  - If approved, they will receive a **notification via email**.
 
 - 👮 **Admins** also need to **submit verification documents** during signup.
   - They must be verified and approved by the **Super Admin** before gaining access.
-  - ✅ If approved, they will receive a **notification via email**.
+  - If approved, they will receive a **notification via email**.
 
 ---
 
@@ -65,14 +65,22 @@ The super admin oversees the platform. They can:
 
 ### 1. Start the Backend
 
+```bash
 cd backend
 npm install
 node server.js
+```
 📍Backend runs at: http://localhost:5000
 
-### 2. Start the Frontend
+### 1. Start the Backend
+Open a new terminal and run:
 
+```bash
 cd frontend
 npm install
 npm run dev
+```
 📍 Frontend runs at: http://localhost:5173
+
+
+
